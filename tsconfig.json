@@ -1,0 +1,26 @@
+{
+	"compileOnSave": false,
+	"compilerOptions": {
+		"allowSyntheticDefaultImports": true,
+		"alwaysStrict": true,
+		"forceConsistentCasingInFileNames": true,
+		"importHelpers": true,
+		"jsx": "Preserve",
+		"lib": [
+			"ES2017",
+			"DOM",
+			"DOM.Iterable",
+			"ScriptHost"
+		],
+		"moduleResolution": "Node",
+		"noEmitOnError": true,
+		"noImplicitAny": true,
+		"noImplicitReturns": true,
+		"noImplicitThis": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"sourceMap": true,
+		"strictNullChecks": true,
+		"target": "ESNext"
+	}
+}

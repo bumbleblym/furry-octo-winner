@@ -1,0 +1,34 @@
+{
+	"testPathDirs": [
+		"src"
+	],
+	"testRegex": "\\.test\\.(ts|tsx)$",
+	"transform": {
+		"\\.(ts|tsx)$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+	},
+	"moduleFileExtensions": [
+		"ts",
+		"tsx",
+		"js",
+		"jsx",
+		"json"
+	],
+	"testResultsProcessor": "<rootDir>/node_modules/ts-jest/coverageprocessor.js",
+	"globals": {
+		"__TS_CONFIG__": {
+			"jsx": "React",
+			"module": "CommonJS"
+		}
+	},
+	"collectCoverageFrom": [
+		"src/**/*.{ts,tsx}"
+	],
+	"coverageThreshold": {
+		"global": {
+			"statements": 100,
+			"branches": 100,
+			"functions": 100,
+			"lines": 100
+		}
+	}
+}
